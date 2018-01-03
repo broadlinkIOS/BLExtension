@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "BLExtension"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "BLExtension utility."
   s.description  = "utility of ios Finally, don't worry about the indent, CocoaPods strips it"
 
