@@ -7,7 +7,6 @@
 //
 
 #import "SecurityUtil.h"
-#import "BLGTMBase64.h"
 #import "NSData+AES.h"
 #import "NSString+MD5.h"
 #import "NSData+MD5.h"
@@ -22,34 +21,29 @@
 #pragma mark - base64
 + (NSString*)encodeBase64String:(NSString * )input { 
     NSData *data = [input dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES]; 
-    data = [BLGTMBase64 encodeData:data]; 
-    NSString *base64String = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] autorelease]; 
+    data = [data base64EncodedDataWithOptions:0];
+    NSString *base64String = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 	return base64String;
 }
 
-+ (NSString*)decodeBase64String:(NSString * )input { 
-    NSData *data = [input dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES]; 
-    data = [BLGTMBase64 decodeData:data]; 
-    NSString *base64String = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] autorelease]; 
-	return base64String;
++ (NSString*)decodeBase64String:(NSString * )input {
+    NSData *data = [[NSData alloc] initWithBase64EncodedString:input options:0];
+    NSString *output = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    
+	return output;
 } 
 
 + (NSString*)encodeBase64Data:(NSData *)data {
-	data = [BLGTMBase64 encodeData:data]; 
-    NSString *base64String = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] autorelease];
-	return base64String;
+	return [data base64EncodedStringWithOptions:0];
 }
 
 + (NSString*)decodeBase64Data:(NSData *)data {
-	data = [BLGTMBase64 decodeData:data]; 
-    NSString *base64String = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] autorelease];
-	return base64String;
+    data = [[NSData alloc] initWithBase64EncodedData:data options:0];
+	return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
 
 + (NSData*)decodeBase64StringTodata:(NSString *)input {
-    NSData *data = [input dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];
-    data = [BLGTMBase64 decodeData:data];
-    return data;
+    return [[NSData alloc] initWithBase64EncodedString:input options:0];
 }
 
 #pragma mark - AES加密
@@ -68,7 +62,7 @@
     NSData *decryData = [data AES256DecryptWithKey:APP_PUBLIC_PASSWORD];
     //将解了密码的nsdata转化为nsstring
     NSString *string = [[NSString alloc] initWithData:decryData encoding:NSUTF8StringEncoding];
-    return [string autorelease];
+    return string;
 }
 
 + (NSString *)AES128DecryptData:(NSData *)data WithKey:(uint8_t *)key iv:(uint8_t *)iv
@@ -83,7 +77,6 @@
     memcpy(ivPtr, iv, sizeof(ivPtr));
     //    [gIv getCString:ivPtr maxLength:sizeof(ivPtr) encoding:NSUTF8StringEncoding];
     
-    //    NSData *data = [BLGTMBase64 decodeData:self];
     NSUInteger dataLength = [data length];
     size_t bufferSize = dataLength + kCCBlockSizeAES128;
     void *buffer = malloc(bufferSize);
@@ -122,7 +115,6 @@
     memcpy(ivPtr, iv, sizeof(ivPtr));
         //    [gIv getCString:ivPtr maxLength:sizeof(ivPtr) encoding:NSUTF8StringEncoding];
     
-        //    NSData *data = [BLGTMBase64 decodeData:self];
     NSUInteger dataLength = [data length];
     size_t bufferSize = dataLength + kCCBlockSizeAES128;
     void *buffer = malloc(bufferSize);
@@ -291,7 +283,7 @@
 #define FileHashDefaultChunkSizeForReadingData 1024*8
 + (NSString *)encryptMD5File:(NSString *)filePath
 {
-    return (NSString *)FileMD5HashCreateWithPath((__bridge CFStringRef)filePath, FileHashDefaultChunkSizeForReadingData);
+    return (__bridge NSString *)(FileMD5HashCreateWithPath((__bridge CFStringRef)filePath, FileHashDefaultChunkSizeForReadingData));
 }
 
 CFStringRef FileMD5HashCreateWithPath(CFStringRef filePath,size_t chunkSizeForReadingData)

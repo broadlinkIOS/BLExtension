@@ -12,12 +12,6 @@
 		180DD6FC1FFB4EAD00C14802 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6E01FFB4EAD00C14802 /* NSDate-Utilities.m */; };
 		180DD6FD1FFB4EAD00C14802 /* NSString+BLExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6E11FFB4EAD00C14802 /* NSString+BLExtension.h */; };
 		180DD6FE1FFB4EAD00C14802 /* NSString+BLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6E21FFB4EAD00C14802 /* NSString+BLExtension.m */; };
-		180DD6FF1FFB4EAD00C14802 /* NSData+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6E41FFB4EAD00C14802 /* NSData+AES.h */; };
-		180DD7001FFB4EAD00C14802 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6E51FFB4EAD00C14802 /* NSData+AES.m */; };
-		180DD7011FFB4EAD00C14802 /* NSData+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6E61FFB4EAD00C14802 /* NSData+MD5.h */; };
-		180DD7021FFB4EAD00C14802 /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6E71FFB4EAD00C14802 /* NSData+MD5.m */; };
-		180DD7031FFB4EAD00C14802 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6E81FFB4EAD00C14802 /* NSString+MD5.h */; };
-		180DD7041FFB4EAD00C14802 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6E91FFB4EAD00C14802 /* NSString+MD5.m */; };
 		180DD7051FFB4EAD00C14802 /* UIAlertAction+Appearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6EA1FFB4EAD00C14802 /* UIAlertAction+Appearance.h */; };
 		180DD7061FFB4EAD00C14802 /* UIAlertAction+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6EB1FFB4EAD00C14802 /* UIAlertAction+Appearance.m */; };
 		180DD7071FFB4EAD00C14802 /* UIColor+BLExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6EC1FFB4EAD00C14802 /* UIColor+BLExtension.h */; };
@@ -28,11 +22,6 @@
 		180DD70C1FFB4EAD00C14802 /* UIImage+ColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6F11FFB4EAD00C14802 /* UIImage+ColorAtPixel.m */; };
 		180DD70D1FFB4EAD00C14802 /* UINavigationController+BLExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6F21FFB4EAD00C14802 /* UINavigationController+BLExtension.h */; };
 		180DD70E1FFB4EAD00C14802 /* UINavigationController+BLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6F31FFB4EAD00C14802 /* UINavigationController+BLExtension.m */; };
-		180DD70F1FFB4EAD00C14802 /* BLGTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6F51FFB4EAD00C14802 /* BLGTMBase64.h */; };
-		180DD7101FFB4EAD00C14802 /* BLGTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6F61FFB4EAD00C14802 /* BLGTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		180DD7111FFB4EAD00C14802 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6F71FFB4EAD00C14802 /* GTMDefines.h */; };
-		180DD7121FFB4EAD00C14802 /* SecurityUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6F91FFB4EAD00C14802 /* SecurityUtil.h */; };
-		180DD7131FFB4EAD00C14802 /* SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6FA1FFB4EAD00C14802 /* SecurityUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D53E95C91819972B5B3F8EBF /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBC671CBD5B595C920E544B /* libPods-Example.a */; };
 /* End PBXBuildFile section */
 
@@ -44,12 +33,6 @@
 		180DD6E01FFB4EAD00C14802 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
 		180DD6E11FFB4EAD00C14802 /* NSString+BLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BLExtension.h"; sourceTree = "<group>"; };
 		180DD6E21FFB4EAD00C14802 /* NSString+BLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BLExtension.m"; sourceTree = "<group>"; };
-		180DD6E41FFB4EAD00C14802 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
-		180DD6E51FFB4EAD00C14802 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
-		180DD6E61FFB4EAD00C14802 /* NSData+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
-		180DD6E71FFB4EAD00C14802 /* NSData+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5.m"; sourceTree = "<group>"; };
-		180DD6E81FFB4EAD00C14802 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
-		180DD6E91FFB4EAD00C14802 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		180DD6EA1FFB4EAD00C14802 /* UIAlertAction+Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertAction+Appearance.h"; sourceTree = "<group>"; };
 		180DD6EB1FFB4EAD00C14802 /* UIAlertAction+Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertAction+Appearance.m"; sourceTree = "<group>"; };
 		180DD6EC1FFB4EAD00C14802 /* UIColor+BLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BLExtension.h"; sourceTree = "<group>"; };
@@ -60,11 +43,6 @@
 		180DD6F11FFB4EAD00C14802 /* UIImage+ColorAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorAtPixel.m"; sourceTree = "<group>"; };
 		180DD6F21FFB4EAD00C14802 /* UINavigationController+BLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+BLExtension.h"; sourceTree = "<group>"; };
 		180DD6F31FFB4EAD00C14802 /* UINavigationController+BLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+BLExtension.m"; sourceTree = "<group>"; };
-		180DD6F51FFB4EAD00C14802 /* BLGTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLGTMBase64.h; sourceTree = "<group>"; };
-		180DD6F61FFB4EAD00C14802 /* BLGTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLGTMBase64.m; sourceTree = "<group>"; };
-		180DD6F71FFB4EAD00C14802 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		180DD6F91FFB4EAD00C14802 /* SecurityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
-		180DD6FA1FFB4EAD00C14802 /* SecurityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
 		9A13954B22CE54722081AC0A /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		B381DF20CB67964AE0D07D50 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BBBC671CBD5B595C920E544B /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,8 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				180DD6DE1FFB4EAD00C14802 /* Category */,
-				180DD6F41FFB4EAD00C14802 /* GTMBase64 */,
-				180DD6F81FFB4EAD00C14802 /* SecurityUtil */,
 			);
 			name = Classes;
 			path = ../../Classes;
@@ -128,7 +104,6 @@
 				180DD6E01FFB4EAD00C14802 /* NSDate-Utilities.m */,
 				180DD6E11FFB4EAD00C14802 /* NSString+BLExtension.h */,
 				180DD6E21FFB4EAD00C14802 /* NSString+BLExtension.m */,
-				180DD6E31FFB4EAD00C14802 /* Security */,
 				180DD6EA1FFB4EAD00C14802 /* UIAlertAction+Appearance.h */,
 				180DD6EB1FFB4EAD00C14802 /* UIAlertAction+Appearance.m */,
 				180DD6EC1FFB4EAD00C14802 /* UIColor+BLExtension.h */,
@@ -141,38 +116,6 @@
 				180DD6F31FFB4EAD00C14802 /* UINavigationController+BLExtension.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		180DD6E31FFB4EAD00C14802 /* Security */ = {
-			isa = PBXGroup;
-			children = (
-				180DD6E41FFB4EAD00C14802 /* NSData+AES.h */,
-				180DD6E51FFB4EAD00C14802 /* NSData+AES.m */,
-				180DD6E61FFB4EAD00C14802 /* NSData+MD5.h */,
-				180DD6E71FFB4EAD00C14802 /* NSData+MD5.m */,
-				180DD6E81FFB4EAD00C14802 /* NSString+MD5.h */,
-				180DD6E91FFB4EAD00C14802 /* NSString+MD5.m */,
-			);
-			path = Security;
-			sourceTree = "<group>";
-		};
-		180DD6F41FFB4EAD00C14802 /* GTMBase64 */ = {
-			isa = PBXGroup;
-			children = (
-				180DD6F51FFB4EAD00C14802 /* BLGTMBase64.h */,
-				180DD6F61FFB4EAD00C14802 /* BLGTMBase64.m */,
-				180DD6F71FFB4EAD00C14802 /* GTMDefines.h */,
-			);
-			path = GTMBase64;
-			sourceTree = "<group>";
-		};
-		180DD6F81FFB4EAD00C14802 /* SecurityUtil */ = {
-			isa = PBXGroup;
-			children = (
-				180DD6F91FFB4EAD00C14802 /* SecurityUtil.h */,
-				180DD6FA1FFB4EAD00C14802 /* SecurityUtil.m */,
-			);
-			path = SecurityUtil;
 			sourceTree = "<group>";
 		};
 		5FCF025179061AC84067D25F /* Pods */ = {
@@ -201,18 +144,12 @@
 			files = (
 				180DD70B1FFB4EAD00C14802 /* UIImage+ColorAtPixel.h in Headers */,
 				180DD6FB1FFB4EAD00C14802 /* NSDate-Utilities.h in Headers */,
-				180DD70F1FFB4EAD00C14802 /* BLGTMBase64.h in Headers */,
-				180DD6FF1FFB4EAD00C14802 /* NSData+AES.h in Headers */,
 				180DD6FD1FFB4EAD00C14802 /* NSString+BLExtension.h in Headers */,
 				180DD7091FFB4EAD00C14802 /* UIImage+BDL.h in Headers */,
-				180DD7121FFB4EAD00C14802 /* SecurityUtil.h in Headers */,
-				180DD7111FFB4EAD00C14802 /* GTMDefines.h in Headers */,
 				180DD6A01FFB4DF100C14802 /* Example.h in Headers */,
 				180DD70D1FFB4EAD00C14802 /* UINavigationController+BLExtension.h in Headers */,
-				180DD7011FFB4EAD00C14802 /* NSData+MD5.h in Headers */,
 				180DD7051FFB4EAD00C14802 /* UIAlertAction+Appearance.h in Headers */,
 				180DD7071FFB4EAD00C14802 /* UIColor+BLExtension.h in Headers */,
-				180DD7031FFB4EAD00C14802 /* NSString+MD5.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,14 +263,9 @@
 				180DD6FC1FFB4EAD00C14802 /* NSDate-Utilities.m in Sources */,
 				180DD6FE1FFB4EAD00C14802 /* NSString+BLExtension.m in Sources */,
 				180DD70E1FFB4EAD00C14802 /* UINavigationController+BLExtension.m in Sources */,
-				180DD7041FFB4EAD00C14802 /* NSString+MD5.m in Sources */,
 				180DD7081FFB4EAD00C14802 /* UIColor+BLExtension.m in Sources */,
 				180DD70C1FFB4EAD00C14802 /* UIImage+ColorAtPixel.m in Sources */,
-				180DD7131FFB4EAD00C14802 /* SecurityUtil.m in Sources */,
-				180DD7101FFB4EAD00C14802 /* BLGTMBase64.m in Sources */,
-				180DD7001FFB4EAD00C14802 /* NSData+AES.m in Sources */,
 				180DD70A1FFB4EAD00C14802 /* UIImage+BDL.m in Sources */,
-				180DD7021FFB4EAD00C14802 /* NSData+MD5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "BLExtension"
-  s.version      = "0.1.0"
+  s.version      = "0.2.0"
   s.summary      = "BLExtension utility."
   s.description  = "utility of ios Finally, don't worry about the indent, CocoaPods strips it"
 
@@ -35,11 +35,11 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "Classes/**/*.h"
 
-s.default_subspec = 'Category'
-#s.subspec 'All' do |spec|
-# spec.ios.dependency 'BLExtension/Category'
-# spec.ios.dependency 'BLExtension/SecurityUtil'
-#end
+s.default_subspec = 'All'
+s.subspec 'All' do |spec|
+ spec.ios.dependency 'BLExtension/Category'
+ spec.ios.dependency 'BLExtension/SecurityUtil'
+end
 
 s.subspec 'Category' do |spec|
 spec.requires_arc        = true
@@ -50,17 +50,16 @@ spec.ios.dependency 'YYCategories'
 
 end
 
-#s.subspec 'SecurityUtil' do |spec|
-#spec.requires_arc        = false
-#spec.public_header_files = [
-#'Classes/GTMBase64/*.h',
-#'Classes/SecurityUtil/*.h'
-#]
-#spec.source_files = [
-#'Classes/GTMBase64/*.{h,mm,m}',
-#'Classes/SecurityUtil/*.{h,mm,m}'
-#]
-#spec.ios.dependency 'BLExtension/Category'
-#end
+s.subspec 'SecurityUtil' do |spec|
+spec.requires_arc        = true
+spec.public_header_files = [
+'Classes/SecurityUtil/*.h'
+]
+spec.source_files = [
+'Classes/GTMBase64/*.{h,mm,m}',
+'Classes/SecurityUtil/*.{h,mm,m}'
+]
+spec.ios.dependency 'BLExtension/Category'
+end
 
 end

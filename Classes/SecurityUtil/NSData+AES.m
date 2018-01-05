@@ -69,7 +69,6 @@
     memcpy(ivPtr, iv, sizeof(ivPtr));
 //    [gIv getCString:ivPtr maxLength:sizeof(ivPtr) encoding:NSUTF8StringEncoding];
     
-//    NSData *data = [BLGTMBase64 decodeData:self];
     NSUInteger dataLength = [self length];
     size_t bufferSize = dataLength + kCCBlockSizeAES128;
     void *buffer = malloc(bufferSize);
