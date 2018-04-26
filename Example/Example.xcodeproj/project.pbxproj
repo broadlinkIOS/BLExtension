@@ -8,20 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		180DD6A01FFB4DF100C14802 /* Example.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD69E1FFB4DF100C14802 /* Example.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		180DD6FB1FFB4EAD00C14802 /* NSDate-Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6DF1FFB4EAD00C14802 /* NSDate-Utilities.h */; };
-		180DD6FC1FFB4EAD00C14802 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6E01FFB4EAD00C14802 /* NSDate-Utilities.m */; };
-		180DD6FD1FFB4EAD00C14802 /* NSString+BLExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6E11FFB4EAD00C14802 /* NSString+BLExtension.h */; };
-		180DD6FE1FFB4EAD00C14802 /* NSString+BLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6E21FFB4EAD00C14802 /* NSString+BLExtension.m */; };
-		180DD7051FFB4EAD00C14802 /* UIAlertAction+Appearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6EA1FFB4EAD00C14802 /* UIAlertAction+Appearance.h */; };
-		180DD7061FFB4EAD00C14802 /* UIAlertAction+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6EB1FFB4EAD00C14802 /* UIAlertAction+Appearance.m */; };
-		180DD7071FFB4EAD00C14802 /* UIColor+BLExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6EC1FFB4EAD00C14802 /* UIColor+BLExtension.h */; };
-		180DD7081FFB4EAD00C14802 /* UIColor+BLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6ED1FFB4EAD00C14802 /* UIColor+BLExtension.m */; };
-		180DD7091FFB4EAD00C14802 /* UIImage+BDL.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6EE1FFB4EAD00C14802 /* UIImage+BDL.h */; };
-		180DD70A1FFB4EAD00C14802 /* UIImage+BDL.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6EF1FFB4EAD00C14802 /* UIImage+BDL.m */; };
-		180DD70B1FFB4EAD00C14802 /* UIImage+ColorAtPixel.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6F01FFB4EAD00C14802 /* UIImage+ColorAtPixel.h */; };
-		180DD70C1FFB4EAD00C14802 /* UIImage+ColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6F11FFB4EAD00C14802 /* UIImage+ColorAtPixel.m */; };
-		180DD70D1FFB4EAD00C14802 /* UINavigationController+BLExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 180DD6F21FFB4EAD00C14802 /* UINavigationController+BLExtension.h */; };
-		180DD70E1FFB4EAD00C14802 /* UINavigationController+BLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DD6F31FFB4EAD00C14802 /* UINavigationController+BLExtension.m */; };
 		D53E95C91819972B5B3F8EBF /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBC671CBD5B595C920E544B /* libPods-Example.a */; };
 /* End PBXBuildFile section */
 
@@ -29,20 +15,6 @@
 		180DD69B1FFB4DF100C14802 /* Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		180DD69E1FFB4DF100C14802 /* Example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
 		180DD69F1FFB4DF100C14802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		180DD6DF1FFB4EAD00C14802 /* NSDate-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Utilities.h"; sourceTree = "<group>"; };
-		180DD6E01FFB4EAD00C14802 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
-		180DD6E11FFB4EAD00C14802 /* NSString+BLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BLExtension.h"; sourceTree = "<group>"; };
-		180DD6E21FFB4EAD00C14802 /* NSString+BLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BLExtension.m"; sourceTree = "<group>"; };
-		180DD6EA1FFB4EAD00C14802 /* UIAlertAction+Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertAction+Appearance.h"; sourceTree = "<group>"; };
-		180DD6EB1FFB4EAD00C14802 /* UIAlertAction+Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertAction+Appearance.m"; sourceTree = "<group>"; };
-		180DD6EC1FFB4EAD00C14802 /* UIColor+BLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BLExtension.h"; sourceTree = "<group>"; };
-		180DD6ED1FFB4EAD00C14802 /* UIColor+BLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BLExtension.m"; sourceTree = "<group>"; };
-		180DD6EE1FFB4EAD00C14802 /* UIImage+BDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BDL.h"; sourceTree = "<group>"; };
-		180DD6EF1FFB4EAD00C14802 /* UIImage+BDL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BDL.m"; sourceTree = "<group>"; };
-		180DD6F01FFB4EAD00C14802 /* UIImage+ColorAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorAtPixel.h"; sourceTree = "<group>"; };
-		180DD6F11FFB4EAD00C14802 /* UIImage+ColorAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorAtPixel.m"; sourceTree = "<group>"; };
-		180DD6F21FFB4EAD00C14802 /* UINavigationController+BLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+BLExtension.h"; sourceTree = "<group>"; };
-		180DD6F31FFB4EAD00C14802 /* UINavigationController+BLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+BLExtension.m"; sourceTree = "<group>"; };
 		9A13954B22CE54722081AC0A /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		B381DF20CB67964AE0D07D50 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BBBC671CBD5B595C920E544B /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,31 +63,9 @@
 		180DD6DD1FFB4EAD00C14802 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				180DD6DE1FFB4EAD00C14802 /* Category */,
 			);
 			name = Classes;
 			path = ../../Classes;
-			sourceTree = "<group>";
-		};
-		180DD6DE1FFB4EAD00C14802 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				180DD6DF1FFB4EAD00C14802 /* NSDate-Utilities.h */,
-				180DD6E01FFB4EAD00C14802 /* NSDate-Utilities.m */,
-				180DD6E11FFB4EAD00C14802 /* NSString+BLExtension.h */,
-				180DD6E21FFB4EAD00C14802 /* NSString+BLExtension.m */,
-				180DD6EA1FFB4EAD00C14802 /* UIAlertAction+Appearance.h */,
-				180DD6EB1FFB4EAD00C14802 /* UIAlertAction+Appearance.m */,
-				180DD6EC1FFB4EAD00C14802 /* UIColor+BLExtension.h */,
-				180DD6ED1FFB4EAD00C14802 /* UIColor+BLExtension.m */,
-				180DD6EE1FFB4EAD00C14802 /* UIImage+BDL.h */,
-				180DD6EF1FFB4EAD00C14802 /* UIImage+BDL.m */,
-				180DD6F01FFB4EAD00C14802 /* UIImage+ColorAtPixel.h */,
-				180DD6F11FFB4EAD00C14802 /* UIImage+ColorAtPixel.m */,
-				180DD6F21FFB4EAD00C14802 /* UINavigationController+BLExtension.h */,
-				180DD6F31FFB4EAD00C14802 /* UINavigationController+BLExtension.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		5FCF025179061AC84067D25F /* Pods */ = {
@@ -142,14 +92,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180DD70B1FFB4EAD00C14802 /* UIImage+ColorAtPixel.h in Headers */,
-				180DD6FB1FFB4EAD00C14802 /* NSDate-Utilities.h in Headers */,
-				180DD6FD1FFB4EAD00C14802 /* NSString+BLExtension.h in Headers */,
-				180DD7091FFB4EAD00C14802 /* UIImage+BDL.h in Headers */,
 				180DD6A01FFB4DF100C14802 /* Example.h in Headers */,
-				180DD70D1FFB4EAD00C14802 /* UINavigationController+BLExtension.h in Headers */,
-				180DD7051FFB4EAD00C14802 /* UIAlertAction+Appearance.h in Headers */,
-				180DD7071FFB4EAD00C14802 /* UIColor+BLExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,13 +202,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180DD7061FFB4EAD00C14802 /* UIAlertAction+Appearance.m in Sources */,
-				180DD6FC1FFB4EAD00C14802 /* NSDate-Utilities.m in Sources */,
-				180DD6FE1FFB4EAD00C14802 /* NSString+BLExtension.m in Sources */,
-				180DD70E1FFB4EAD00C14802 /* UINavigationController+BLExtension.m in Sources */,
-				180DD7081FFB4EAD00C14802 /* UIColor+BLExtension.m in Sources */,
-				180DD70C1FFB4EAD00C14802 /* UIImage+ColorAtPixel.m in Sources */,
-				180DD70A1FFB4EAD00C14802 /* UIImage+BDL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

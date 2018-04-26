@@ -1,9 +1,6 @@
 PODS:
   - BLExtension (0.2.0):
-    - BLExtension/All (= 0.2.0)
-  - BLExtension/All (0.2.0):
-    - BLExtension/Category
-    - BLExtension/SecurityUtil
+    - BLExtension/SecurityUtil (= 0.2.0)
   - BLExtension/Category (0.2.0):
     - YYCategories
   - BLExtension/SecurityUtil (0.2.0):
@@ -20,7 +17,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BLExtension: 9d6ba99956701d258ab0cbf04eb91dbd51f48ec9
+  BLExtension: 176e7a821ac347a9fcfbd678abaed6085740b02d
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
 PODFILE CHECKSUM: 7a414793b622090c02e2a5dfa38cdea6d420df68

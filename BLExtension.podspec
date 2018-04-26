@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "Classes/**/*.h"
 
-s.default_subspec = 'All'
+s.default_subspec = 'SecurityUtil'
 s.subspec 'All' do |spec|
  spec.ios.dependency 'BLExtension/Category'
  spec.ios.dependency 'BLExtension/SecurityUtil'
@@ -47,7 +47,7 @@ spec.source_files = [
 'Classes/Category/*.{h,mm,m}'
 ]
 spec.ios.dependency 'YYCategories'
-
+spec.header_mappings_dir = 'usr/library'
 end
 
 s.subspec 'SecurityUtil' do |spec|
